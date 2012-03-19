@@ -1,7 +1,11 @@
 {
   "name" : "watcher",
   "version" : "0.0.1",
-  "author" : "Kronos",
-  "dependencies": {} ,
-  "engines": {">= 0.4.x <0.6.11"}
+  "description":"Watcher is a module who will be watching a given process, if he get the limits given before the process will die",
+  "author" : "Alejandro Morales",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alejandromg/watcher.git"
+  },
+  "engines": "0.6.x"
 }

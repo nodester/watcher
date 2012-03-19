@@ -9,4 +9,3 @@
 
 
 module.exports = require('./lib/watcher');
-module.exports.run(8000);
