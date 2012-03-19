@@ -6,7 +6,7 @@
  The main purpose of this module is because we, at nodester, are needed to control the memory use by users apps. And disk space in use. 
 
 
-#### Inspiration and some *cogh* (all)  parts shameless copied from kiwf because read through [Kill it With Fire](https://github.com/Marak/node-kiwf/), was very handy.
+#### Inspiration and some (***cogh*** all ***cogh***)  parts shameless copied from kiwf because read through [Kill it With Fire](https://github.com/Marak/node-kiwf/), was very handy.
 
 
 ## Contributors
@@ -17,5 +17,5 @@
 
 ## Licence
 
-MIT
+**MIT**
 Marak Squires & Alejandro Morales Gámez
