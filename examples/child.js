@@ -1,12 +1,14 @@
-var watcher = (new (require('../lib/watcher'))({
+(new (require('../lib/watcher'))({
   host:'localhost'
-}))
-
-
-watcher.emitter({
-  maxMemory:25 //25mb
+})).emitter({
+  maxMemory:25, //25mb,
+  sizeSpace:25,
+  checkSpace:true
 })
 
+require('http').createServer(function(req,res){
+  res.end('pl')
+}).listen(9011)
 
 /*
  
