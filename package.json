@@ -1,5 +1,5 @@
 {
-  "name" : "watcher",
+  "name" : "node-watcher",
   "version" : "0.0.1",
   "description":"Watcher by nodester :: is a module to manage|limit resources in a shared environment",
   "author" : "Alejandro Morales",
