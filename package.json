@@ -1,12 +1,16 @@
 {
   "name" : "watcher",
   "version" : "0.0.1",
-  "description":"Watcher is a module who will be watching a given process, if he get the limits given before the process will die",
+  "description":"Watcher by nodester :: is a module to manage|limit resources in a shared environment",
   "author" : "Alejandro Morales",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alejandromg/watcher.git"
+    "url": "https://github.com/nodester/watcher.git"
   },
   "main":"./lib/watcher.js",
-  "engines": "0.6.x"
+  "bin": {
+    "watcher": "./bin/watcher"
+  },
+  "engines": ">=0.4.x",
+  "preferGlobal":"true"
 }
