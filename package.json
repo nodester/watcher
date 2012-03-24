@@ -9,7 +9,7 @@
   },
   "main":"./lib/watcher.js",
   "bin": {
-    "watcher": "./bin/watcher"
+    "watcher": "./lib/watcher.js"
   },
   "engines": ">=0.4.x",
   "preferGlobal":"true"
