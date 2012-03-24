@@ -1,5 +1,7 @@
 (new (require('../lib/watcher'))({
-  host:'localhost'
+  host:'localhost',
+  user:'alejandromg',
+  password:'34141231'
 })).emitter({
   maxMemory:25, //25mb,
   sizeSpace:25,
