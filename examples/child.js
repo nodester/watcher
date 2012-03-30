@@ -1,4 +1,4 @@
-(new (require('../lib/watcher'))({
+(new (require('node-watcher'))({
   host:'localhost',
   user:'alejandromg',
   password:'34141231',
